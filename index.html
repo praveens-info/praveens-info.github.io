@@ -1,706 +1,977 @@
 <!DOCTYPE html>
-<html lang="en">
-	
-<!-- Mirrored from demo.templatepath.com/wedding_new/wedding-html/jasmine/version-2/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 11 Jan 2019 03:41:06 GMT -->
+<!--[if IE 8 ]><html class="ie ie8" lang="en-US"> <![endif]-->
+<!--[if IE 9 ]><html class="ie ie9" lang="en-US"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" dir="ltr" lang="en-US"> <!--<![endif]-->
+
+<!-- Mirrored from 3jon.com/demo/themeforest/wp/bestmoment/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 13 Jan 2019 01:24:45 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
-		<meta charset="UTF-8">
-		<title>Wedding | Bootstrap HTML5 Responsive Template</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	    <link rel="shortcut icon" href="favicon.html">
-		<!-- Bootstrap -->
-		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-		<!-- Main CSS -->
-		<link href="style.css" rel="stylesheet" media="screen">
-		<!-- color variation -->
-		<link rel="stylesheet" href="css/color-variation.css">
-		
-		<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
-		<!--[if lt IE 9]>
-			  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-			  <script src="js/respond.js"></script>
-		<![endif]-->
-	</head>
-<body>
 	
-	<!-- .preloader -->
-    <div class="preloader"></div> 
-    <!-- /.preloader -->
+	<!-- Basic Page Needs -->
+	<meta charset="UTF-8" />
+	<!-- Mobile Specific Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="shortcut icon" href="wp-content/themes/bestmoment/images/favicon.png" type="image/x-icon" />
+	
+<style>
+.big-day {
+	background-image: url(wp-content/uploads/2016/12/big_day.jpg);
+}
+section.rsvp-banner {
+	background-image: url(wp-content/uploads/2016/12/rsvp_bg.jpg);
+}
+.rsvp-now{
+	background-image: url(wp-content/uploads/2016/12/rsvp_form_bg.jpg);
+}
+.testimonial{
+	background-image: url(wp-content/uploads/2016/12/testimonial_bg.jpg);
+}
+.home-header{
+	background-image: url(wp-content/uploads/2016/11/home_background.jpg);
+}
+</style>	<title>Best Moments Wp Theme &#8211; Just another WordPress site</title>
+<script>
+function init_map() {
+        var myOptions = {
+            zoom: 12,
+            center: new google.maps.LatLng(23.779287, 90.421429),
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+            scrollwheel: false
+        };
+        map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);
+        marker = new google.maps.Marker({
+            map: map,
+            position: new google.maps.LatLng(23.779287, 90.421429)
+        });
+        infowindow = new google.maps.InfoWindow({
+            content: "<strong>Dhaka</strong><br>Elephant Road,<br>Dhaka<br> <br>"
+        });
+        google.maps.event.addListener(marker, "click", function() {
+            infowindow.open(map, marker);
+        });
+        infowindow.open(map, marker);
+}
+</script><link rel='dns-prefetch' href='http://maps.googleapis.com/' />
+<link rel='dns-prefetch' href='http://s.w.org/' />
+<link rel="alternate" type="application/rss+xml" title="Best Moments Wp Theme &raquo; Feed" href="feed/index.html" />
+<link rel="alternate" type="application/rss+xml" title="Best Moments Wp Theme &raquo; Comments Feed" href="comments/feed/index.html" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/3jon.com\/demo\/themeforest\/wp\/bestmoment\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.12"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='contact-form-7-css'  href='wp-content/plugins/contact-form-7/includes/css/styles4906.css?ver=4.7' type='text/css' media='all' />
+<link rel='stylesheet' id='fonts-css'  href='wp-content/themes/bestmoment/css/fonts77ae.css?ver=2' type='text/css' media='screen' />
+<link rel='stylesheet' id='style-main-css'  href='wp-content/themes/bestmoment/stylef718.css?ver=4.7.12' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='wp-content/themes/bestmoment/css/font-awesome.min592e.css?ver=3' type='text/css' media='screen' />
+<link rel='stylesheet' id='bootstrap-css'  href='wp-content/themes/bestmoment/css/bootstrap.min7dd3.css?ver=4' type='text/css' media='screen' />
+<link rel='stylesheet' id='slick-css'  href='wp-content/themes/bestmoment/css/slickb52e.css?ver=5' type='text/css' media='screen' />
+<link rel='stylesheet' id='pageLoader-css'  href='wp-content/themes/bestmoment/css/pageLoader9055.css?ver=6' type='text/css' media='screen' />
+<link rel='stylesheet' id='simplelightbox-css'  href='wp-content/themes/bestmoment/css/simplelightbox.min0e7e.css?ver=7' type='text/css' media='screen' />
+<link rel='stylesheet' id='animate-css'  href='wp-content/themes/bestmoment/css/animate5055.css?ver=8' type='text/css' media='screen' />
+<link rel='stylesheet' id='custom-css'  href='wp-content/themes/bestmoment/css/custom544b.css?ver=9' type='text/css' media='screen' />
+<script type='text/javascript' src='wp-includes/js/jquery/jqueryb8ff.js?ver=1.12.4'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.min330a.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='wp-json/index.html' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.7.12" />
+<link rel="canonical" href="index.html" />
+<link rel='shortlink' href='index.html' />
+<link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embed5bac.html?url=http%3A%2F%2F3jon.com%2Fdemo%2Fthemeforest%2Fwp%2Fbestmoment%2F" />
+<link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embed5258.html?url=http%3A%2F%2F3jon.com%2Fdemo%2Fthemeforest%2Fwp%2Fbestmoment%2F&amp;format=xml" />
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		</head>
 
-	<!-- header -->
-	<header id="header">
-		<div class="overlay">
-			<div class="container">
-				<div class="row">					
-					<!-- .header-featured-box -->
-					<div class="header-featured-box clearfix">
-						<div class="header-featured-left">
-							<h1>Mani <b>&</b></h1>
-							<span>ARE GETTING</span>
-						</div>
-						<div class="header-featured-right">
-						    <span>MARRIED</span>
-							<h1>pavi</h1>
-						</div>
-					</div> <!-- /.header-featured-box -->
+<body class="home page-template page-template-frontpage page-template-frontpage-php page page-id-13" data-spy="scroll" data-target=".navbar" data-offset="10">
 
-				</div>
-			</div>
-		</div>
-	</header> <!-- /header -->
-
-	<button class="nav-collapser">
-		<i class="fa fa-bars"></i>
-	</button>
-	<nav class="side-navigation">		
-		<button class="navigation-closer"></button>
+	<div id="loader-wrapper">
+		<div id="loader"></div>
+		<div class="loader-section section-left"></div>
+		<div class="loader-section section-right"></div>
+	</div>
+	
+		        <header class="home-header cover-background position-relative">
 		
-		<div class="side-nav-logo">
-			<img src="images/logo/side-nav-logo.png" alt="side nav logo">			
-		</div>
+		<img class="img-responsive invisible" src="wp-content/uploads/2016/11/home_background.jpg" alt="Best Moments Wp Theme">
+				<div class="container position-cover">
+			                <nav class="navbar navbar-default" data-spy="affix" data-offset-top="0">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#wedding-nav" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="wedding-nav">
+                        <ul id="menuid" class="nav navbar-nav left-nav"><li id="menu-item-53" class="parent menu-item menu-item-type-post_type menu-item-object-page"><a href="#home"  class="link_menu home"><span class="nav-label">home</span></a></li>
+<li id="menu-item-52" class="parent menu-item menu-item-type-post_type menu-item-object-page"><a href="#couple"  class="link_menu couple"><span class="nav-label">couple</span></a></li>
+<li id="menu-item-51" class="parent menu-item menu-item-type-post_type menu-item-object-page"><a href="#story"  class="link_menu story"><span class="nav-label">story</span></a></li>
+<li id="menu-item-50" class="parent menu-item menu-item-type-post_type menu-item-object-page"><a href="#events"  class="link_menu events"><span class="nav-label">events</span></a></li>
+<li id="menu-item-49" class="parent menu-item menu-item-type-post_type menu-item-object-page"><a href="#people"  class="link_menu people"><span class="nav-label">people</span></a></li>
+<!--<li id="menu-item-48" class="parent menu-item menu-item-type-post_type menu-item-object-page"><a href="#rsvp"  class="link_menu rsvp"><i class="li-right"></i><span class="nav-label">rsvp</span></a></li>-->
+<li id="menu-item-47" class="parent menu-item menu-item-type-post_type menu-item-object-page"><a href="#gallery"  class="link_menu gallery"><i class="nav-label"></i><span class="nav-label">gallery</span></a></li>
+<!--<li id="menu-item-46" class="parent menu-item menu-item-type-post_type menu-item-object-page"><a href="#blog"  class="link_menu blog"><i class="li-right"></i><span class="nav-label">blog</span></a></li>-->
+<li id="menu-item-45" class="parent menu-item menu-item-type-post_type menu-item-object-page"><a href="#location"  class="link_menu location"><i class="nav-label"></i><span class="nav-label">location</span></a></li>
+<!--<li id="menu-item-44" class="parent menu-item menu-item-type-post_type menu-item-object-page"><a href="#gifts"  class="link_menu gifts"><i class="li-right"></i><span class="nav-label">gifts</span></a></li>
+</ul>								
+							
+	<a class="navbar-logo text-hide" href="index.html"><img src="wp-content/themes/bestmoment/images/logo.png" alt="Best Moments Wp Theme" /></a>	
 
-		<div class="side-nav-menu">
-			<ul>
-				<li class="scroll"><a href="#header">HOME</a></li>
-				<li class="scroll"><a href="#bright_groom">About Us</a></li>
-				<li class="scroll"><a href="#our_loveline">Our Story</a></li>
-				<li class="scroll"><a href="#close_people">Important People</a></li>
-				<li class="scroll"><a href="#rsvp">rsvp</a></li>
-				<li class="scroll"><a href="#wedding_party">Event & Parties</a></li>
-				<li class="scroll"><a href="#our_blog">blog <i class="fa fa-caret-down"></i></a>
-					<ul class="dropdown">
-						<li><a href="blog.html">Blog Page</a></li>
-						<li><a href="single-post.html">Single Post</a></li>
-					</ul>
-				</li>
-				<li class="scroll"><a href="#gallery">GAllery</a></li>
+										
+						                    </div>
+                    <!-- /.navbar-collapse end -->
+                </nav>
+				
+            </div>
+			
+	<div class="container position-cover flex-container flex-center flex-middle text-center header-flex-wrapper pt-156">
+		<div class="home-header-text-wrapper">
+			<h1 class="main-header-title">
+				<span class="position-relative text-capitalize"><i class="fa position-absolute groom">the groom</i>Manigandan </span> 
+				<span class="text-pink">&amp;</span>				<span class="position-relative text-capitalize"><i class="fa position-absolute bride">the bride</i>Pavithra</span>
+			</h1>
+			<p class="main-header-tagline margin-remove">are getting married</p>
+			<h4 class="main-header-date">24th february, 2019</h4>
+		</div>
+	</div>        </header>
+<section id="home" class="bestmoment_addclass home">
+	<div class="container">
+		<div class="row">
+			<h2 class="disp">Section Heading</h2>	
+		</div>
+	</div>
+</section>
+<section id="couple" class="bestmoment_addclass couple">
+	<div class="container">
+		<div class="row">
+			<div class="bestmomentadd wedding-couple bg-grey section-padding-top section-padding-bottom"><div class="col-md-12">
+			<h2 class="section-title text-center"><span class="text-blackish arima-madurairegular">The </span> <span class="text-pink">Wedding Couple</span></h2>
+			<div class="text-center">
+			<span class="title-strip-pink text-pink">
+			<i class="fa fa-heart" aria-hidden="true"></i>
+			<i class="fa fa-heart" aria-hidden="true"></i>
+			<i class="fa fa-heart" aria-hidden="true"></i>
+			</span>
+			</div>
+			<p class="section-tagline">Phasellus laoreet finibus nisl, in auctor mauris placerat ut. Nunc dui ante, lacinia id magna id, luctus aliquam arcu.</p>
+			</div>
+			<div class="clearfix col-md-12">
+			<div class="couple-thumbnail-wrapper flex-container flex-middle">
+			<div class="col-sm-5 col-xs-8 couple-thumbnail wow fadeInUp" data-wow-offset="100">
+			<div class="couple-details position-relative">
+			<figure>
+			<img class="position-absolute" src="wp-content/uploads/2016/11/groom_image_circle.png" alt="Groom">
+			</figure>
+			<h6 class="couple-tags">The Groom</h6>
+			<h3 class="couple-name">Manigandan</h3>
+			<p class="text-regular mb-35">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,or words dont look even slightly believable.</p>
+			<div class="font-20"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a><a href="#"><i class="fa fa-vimeo-square" aria-hidden="true"></i></a><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></div>
+			</div>
+			</div>
+			<div class="col-sm-2 text-center love-container wow">
+			<figure class="heart-plus position-relative">
+			<i class="fa fa-heart text-pink" aria-hidden="true"></i>
+			<i class="fa fa-plus text-white position-absolute" aria-hidden="true"></i>
+			</figure>
+			</div>
+			<div class="col-sm-5 col-xs-8 couple-thumbnail  wow fadeInUp" data-wow-offset="100">
+			<div class="couple-details position-relative">
+			<figure>
+			<img class="position-absolute" src="wp-content/uploads/2016/11/bride_image_circle.png" alt="Bride">
+			</figure>
+			<h6 class="couple-tags">The Bride</h6>
+			<h3 class="couple-name">Pavithra</h3>
+			<p class="text-regular mb-35">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,or words dont look even slightly believable.</p>
+			<div class="font-20"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a><a href="#"><i class="fa fa-vimeo-square" aria-hidden="true"></i></a><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></div>
+			</div>
+			</div>
+			</div>
+			</div>
+			<div class="clearfix col-md-12 text-center mt-60">
+			<a href="#" class="wedding-button bg-blackish text-white link-smooth-scroll wow" data-wow-offset="10">our love story</a>
+			</div></div><div class="bestmoment_outer"><section class="big-day cover-background position-relative parallax-container pink-overlay wow fadeInUp">
+            <div class="container">
+			<div class="row">
+			<div class="pink-overlay position-cover"></div>
+			<img class="img-responsive invisible" src="wp-content/uploads/2016/11/big_day.jpg" alt="Big Day Background">
+			
+			<div class="container padding-remove position-cover flex-container flex-middle flex-center flex-column">
+			<div class="col-md-12">
+			<h2 class="section-title text-center"><span class="text-blackish arima-madurairegular">Until </span> <span class="text-white">Our Big Day</span></h2>
+			<div class="text-center">
+			<span class="title-strip-white text-white">
+			<i class="fa fa-heart" aria-hidden="true"></i>
+			<i class="fa fa-heart" aria-hidden="true"></i>
+			<i class="fa fa-heart" aria-hidden="true"></i>
+			</span>
+			</div>
+			<p class="section-tagline text-white">Phasellus laoreet finibus nisl, in auctor mauris placerat ut. Nunc dui ante, lacinia id magna id, luctus aliquam arcu.</p>
+			</div>
+			<div class="fullwidth-block">
+			<ul id="countdown" class="flex-container padding-remove flex-space-around">
+			<li class="flex-container flex-column flex-middle flex-space-around position-relative wow"><img class="img-responsive" src="wp-content/themes/bestmoment/images/heart-counter.png" alt="Counter"><span class="counter-numbers days"></span><span class="counter-tags">days</span></li>
+			<li class="flex-container flex-column flex-middle flex-space-around position-relative wow"  data-wow-delay=".2s"><img class="img-responsive" src="wp-content/themes/bestmoment/images/heart-counter.png" alt="Counter"><span class="counter-numbers hours"></span><span class="counter-tags">hours</span></li>
+			<li class="flex-container flex-column flex-middle flex-space-around position-relative wow"  data-wow-delay=".4s"><img class="img-responsive" src="wp-content/themes/bestmoment/images/heart-counter.png" alt="Counter"><span class="counter-numbers mins"></span><span class="counter-tags">minutes</span></li>
+			<li class="flex-container flex-column flex-middle flex-space-around position-relative wow"  data-wow-delay=".6s"><img class="img-responsive" src="wp-content/themes/bestmoment/images/heart-counter.png" alt="Counter"><span class="counter-numbers secs"></span><span class="counter-tags">seconds</span></li>
 			</ul>
-		</div>
-
-	</nav>
-
-
-
-	<!-- #bright_groom -->
-	<section id="bright_groom">
-		<div class="container">
-			
-			<!-- .section-title -->
-			<div class="section-title">
-				<h2>Groom & Bride</h2>
-			</div> <!-- /.section-title -->
-
-			<div class="row">
-				
-				<!-- .single_bride_groom -->
-				<div class="single_bride_groom col-lg-6 col-md-6 col-sm-6 col-xs-12 wow slideInLeft">
-					<div class="single_bride_groom_wrap">
-						<div class="image-wrap">
-							<img src="images/bride-groom/groom.png" alt="">
-							<div class="overlay"></div>
-						</div>
-						<h2>Manigandan</h2>
-						<span>GROOM</span>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum <br> hasbeen the industry's standard dummy text <br> ever since the 1500s</p>
-					<!--	<ul class="social">
-							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-						</ul>-->
-					</div>
-				</div> <!-- /.single_bride_groom -->
-				
-				<!-- .single_bride_groom -->
-				<div class="single_bride_groom col-lg-6 col-md-6 col-sm-6 col-xs-12 wow slideInRight">
-					<div class="single_bride_groom_wrap">
-						<div class="image-wrap">
-							<img src="images/bride-groom/bride.png" alt="">
-							<div class="overlay"></div>
-						</div>
-						<h2>Pavithra</h2>
-						<span>BRIDE</span>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum <br> hasbeen the industry's standard dummy text <br> ever since the 1500s</p>
-					<!--	<ul class="social">
-							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-						</ul>-->
-					</div>
-				</div> <!-- /.single_bride_groom -->
 			</div>
-			
-			<!--<button class="wow slideInLeft" data-animation-delay="1s">see full story</button>-->
-
+			</div>
+			</div>
+            </div>
+			</section></div>	
 		</div>
-	</section> <!-- /#bright_groom <!--
-
-	<!-- .curv-white -->
-	<section class="curv-white">
-		<h2>This is only for validation</h2>
-	</section> <!-- /.curv-white -->
-	
-	<!-- #countdown -->
-	<section id="countdown">
-		<div class="overlay">
+	</div>
+</section>
+<section id="story" class="bestmoment_addclass story">
+	<div class="container">
+		<div class="row">
+			<h2 class="disp">Section Heading</h2>
+<div class="bestmomentadd love-story section-padding-top section-padding-bottom bg-grey wow fadeInUp">
 			<div class="container">
-				<div class="row">
-					<h2>UNTIL OUR BIG DAY</h2>
-					<div class="title-border"></div>
-					
-					<div id="countdown-wrap">
-						<!-- dynamically count down wil added by js -->
-					</div>
-
-				</div>
-			</div>
-		</div>
-	</section> <!-- /#countdown -->
-
-
-	<!-- #our_loveline -->
-	<section id="our_loveline">
-		<div class="container">
-
-			<!-- .section-title -->
-			<div class="section-title">
-				<h2>Our Loveline</h2>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the <br> industry's standard dummy text ever since the 1500s</p>
-			</div> <!-- /.section-title -->
-
 			<div class="row">
-				<div class="single_love_line clearfix">
-					<div class="image col-lg-6 col-md-6 col-sm-6 wow slideInLeft">
-						<div class="image-wrap">
-							<img src="images/our-love-line/1.png" alt="">
-							<div class="overlay"></div>
-						</div>
-					</div>
-					<div class="details col-lg-6 col-md-6 col-sm-6 wow slideInRight">
-						<h2>The first day we met</h2>
-						<span>27 FEB, 2014</span>
-						<p>There are many variations of passages of Lorem Ipsum available, but the majority havesuffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-						<button>read more</button>
-					</div>
-				</div>
-				<div class="single_love_line clearfix">
-					<div class="details col-lg-6 col-md-6 col-sm-6 wow slideInLeft">
-						<h2>Proposal Day</h2>
-						<span>27 FEB, 2014</span>
-						<p>There are many variations of passages of Lorem Ipsum available, but the majority havesuffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-						<button>read more</button>
-					</div>
-					<div class="image col-lg-6 col-md-6 col-sm-6 wow slideInRight">
-						<div class="image-wrap">
-							<img src="images/our-love-line/2.png" alt="">
-							<div class="overlay"></div>
-						</div>
-					</div>
-				</div>
-				<div class="single_love_line clearfix">
-					<div class="image col-lg-6 col-md-6 col-sm-6 wow slideInLeft">
-						<div class="image-wrap">
-							<img src="images/our-love-line/3.png" alt="">
-							<div class="overlay"></div>
-						</div>
-					</div>
-					<div class="details col-lg-6 col-md-6 col-sm-6 wow slideInRight">
-						<h2>Our first Dating</h2>
-						<span>27 FEB, 2014</span>
-						<p>There are many variations of passages of Lorem Ipsum available, but the majority havesuffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-						<button>read more</button>
-					</div>
-				</div>
-				<div class="single_love_line clearfix">
-					<div class="details col-lg-6 col-md-6 col-sm-6 wow slideInLeft">
-						<h2>Our Ingagement</h2>
-						<span>27 FEB, 2014</span>
-						<p>There are many variations of passages of Lorem Ipsum available, but the majority havesuffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-						<button>read more</button>
-					</div>
-					<div class="image col-lg-6 col-md-6 col-sm-6 wow slideInRight">
-						<div class="image-wrap">
-							<img src="images/our-love-line/4.png" alt="">
-							<div class="overlay"></div>
-						</div>
-					</div>
-				</div>
+			
+			<div class="col-md-12">
+			<h2 class="section-title text-center wow"><span class="text-blackish arima-madurairegular">Our </span> <span class="text-pink">Love Story</span></h2>
+			<div class="text-center  wow">
+			<span class="title-strip-pink text-pink">
+			<i class="fa fa-heart" aria-hidden="true"></i>
+			<i class="fa fa-heart" aria-hidden="true"></i>
+			<i class="fa fa-heart" aria-hidden="true"></i>
+			</span>
+			</div>
+			<p class="section-tagline">Phasellus laoreet finibus nisl, in auctor mauris placerat ut. Nunc dui ante, lacinia id magna id, luctus aliquam arcu.</p>
 			</div>
 			
-			<button>Read more</button>
-
-		</div>
-	</section> <!-- /#our_loveline -->
-
-	<!-- .curv-gray -->
-	<section class="curv-gray-2">
-		<h2>This is only for validation</h2>
-	</section> <!-- /.curv-gray -->
-
-	<!-- #friends_says -->
-	<section id="friends_says">
-		<div class="overlay">
+			<div class="clearfix col-md-12">
+			
+			<div class="row">
+			
+			<div class="col-sm-10 col-xs-10 center-block-col">
+			
+			<div class="row-equal-height storyline-first"><div class="4 col-md-4 col-md-offset-1 col-sm-5 col-xs-6 story-thumbnail wow fadeInUp" data-wow-offset="100">
+			<figure class="bg-white">
+			<img class="img-responsive" src="wp-content/uploads/2016/11/first_met.jpg" alt="The First Day We Met">
+			<div class="storyline-titlebar-left bg-pink position-relative">
+			<h3 class="text-capitalize text-white section-subtitle text-center margin-remove">The First Day We Met</h3>
+			</div>
+			<div class="story-overview">
+			<p class="stroryline-date text-capitalize text-pink text-center">08 Nov 2016</p>
+			<p class="text-regular">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,or words don&#8217;t look even slightly believable.</p>
+			</div>
+			</figure>
+			</div><div class="col-md-2 col-sm-2 xs-hide storyline-divider">
+											<div class="storyline-divider-first full-height">
+												<img class="center-block divider-img" src="wp-content/themes/bestmoment/images/storyline-divider-01.png" alt="Divider">
+											</div>
+										</div>
+										
+										<div class="col-md-4 col-xs-6 col-sm-5 story-thumbnail wow fadeInUp" data-wow-offset="100">
+											<figure class="bg-white">
+												<div class="storyline-titlebar-right bg-pink position-relative">
+													<h3 class="text-capitalize text-white section-subtitle text-center margin-remove">Proposal Day</h3>
+												</div>
+												<div class="story-overview">
+													<p class="stroryline-date text-capitalize text-pink text-center">08 Nov 2016</p>
+													<p class="text-regular">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,or words don&#8217;t look even slightly believable.</p>
+												</div>
+												<img class="img-responsive" src="wp-content/uploads/2016/11/proposal_day.jpg" alt="Proposal Day">
+											</figure>
+										</div><div class="4 col-md-4 col-md-offset-1 col-sm-5 col-xs-6 story-thumbnail wow fadeInUp" data-wow-offset="100">
+			<figure class="bg-white">
+			<img class="img-responsive" src="wp-content/uploads/2016/11/first_dating.jpg" alt="Our First Dating">
+			<div class="storyline-titlebar-left bg-pink position-relative">
+			<h3 class="text-capitalize text-white section-subtitle text-center margin-remove">Our First Dating</h3>
+			</div>
+			<div class="story-overview">
+			<p class="stroryline-date text-capitalize text-pink text-center">08 Nov 2016</p>
+			<p class="text-regular">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,or words don&#8217;t look even slightly believable.</p>
+			</div>
+			</figure>
+			</div><div class="col-md-2 col-sm-2 xs-hide ">
+											<div class="storyline-divider-second full-height">
+												<img class="center-block divider-img" src="wp-content/themes/bestmoment/images/storyline-divider-01.png" alt="Divider">
+											</div>
+										</div>
+										
+										<div class="col-md-4 col-xs-6 col-sm-5 story-thumbnail wow fadeInUp" data-wow-offset="100">
+											<figure class="bg-white">
+												<div class="storyline-titlebar-right bg-pink position-relative">
+													<h3 class="text-capitalize text-white section-subtitle text-center margin-remove">Our Engagement</h3>
+												</div>
+												<div class="story-overview">
+													<p class="stroryline-date text-capitalize text-pink text-center">08 Nov 2016</p>
+													<p class="text-regular">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,or words don&#8217;t look even slightly believable.</p>
+												</div>
+												<img class="img-responsive" src="wp-content/uploads/2016/11/engagement.jpg" alt="Our Engagement">
+											</figure>
+										</div></div>
+			
+			</div>
+			
+			</div>
+			
+			</div>
+			
+			</div>
+			</div>
+			</div><div class="bestmoment_outer"> <div class="testimonial cover-background position-relative parallax-container wow fadeInUp">
 			<div class="container">
-				<div class="row">
-					<h2>FRIENDS SAY’S</h2>
-					<div class="title-border"></div>
-					
-					<p>“Love is all about somthing unforgatble <br>toucing moment which is happening every time between you & me”</p>
-					
-					<img src="images/resources/friends.jpg" alt="">
-
-					<h3>Shamus Moris</h3>
-
-				</div>
-			</div>
-		</div>
-	</section> <!-- /#friends_says -->
-
-
-	<!-- #close_people -->
-	<section id="close_people">
-		<div class="container">
-
-			<!-- .section-title -->
-			<div class="section-title wow slideInDown" data-animation-duration="1s">
-				<h2>Close Person</h2>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
-			</div> <!-- /.section-title -->
-
 			<div class="row">
-				<!--<div class="col-lg-6 col-md-6 col-sm-6 close_person_top">
-					<img src="images/close-person-image/top-1.jpg" alt="close person">
-					<h2>Jim Burner</h2>
-					<span>BESTMAN</span>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-				</div>-->
-				<div class="col-lg-6 col-md-6 col-sm-6 close_person_top">
-					<img src="images/close-person-image/top-2.jpg" alt="close person">
-					<h2>Shelly Rose</h2>
-					<span>MAID OF HONOR</span>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-				</div>
-			</div>
+			<h2 class="section-title text-center text-hide mb-remove">testimonial</h2>
+			<img class="invisible img-responsive" src="wp-content/uploads/2016/11/testimonial_bg.jpg" alt="Testimonial Background">
 			
-			<div class="row">
-				<div class="close_person_bottom_title">
-					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-						<h2>Groom Mans</h2>
-					</div>
-					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-						<h2>Bride Mans</h2>
-					</div>
-				</div>
+			<div id="testimonial-carousel" class="carousel slide position-cover" data-ride="carousel">
+			<div class="full-height">
+			<div class="flex-container flex-center flex-middle full-height">
+			<ol class="carousel-indicators flex-container flex-column"></ol>
+			<div class="carousel-inner" role="listbox"><div class="item flex-container flex-column wow fadeInUp">
+			<div class="testimonial-quotation bg-white">
+			<blockquote class="text-regular position-relative">
+			<i class="fa fa-quote-left text-pink position-absolute" aria-hidden="true"></i>There are many variations of passages of Lorem Ipsum available, but the majority havesuffered alteration in some form, by injected humour, slightly believable.There are many variations of passages of Lorem Ipsum available, There are many variations of passages.</blockquote>
 			</div>
-
-			<div class="row close_person_bottom">
-
-				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-					<div class="close_person_bottom_single clearfix">
-						<img src="images/close-person-image/1.jpg" alt="">
-						<div class="details">
-							<h2>Jim Burner</h2>
-							<span>GROOM’S FATHER</span>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy since1500s</p>
-						</div>
-					</div>
-					<div class="close_person_bottom_single clearfix">
-						<img src="images/close-person-image/2.jpg" alt="">
-						<div class="details">
-							<h2>Jim Burner</h2>
-							<span>GROOM’S FATHER</span>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy since1500s</p>
-						</div>
-					</div>
-					<div class="close_person_bottom_single clearfix">
-						<img src="images/close-person-image/3.jpg" alt="">
-						<div class="details">
-							<h2>Jim Burner</h2>
-							<span>GROOM’S FATHER</span>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy since1500s</p>
-						</div>
-					</div>
-					<div class="close_person_bottom_single clearfix">
-						<img src="images/close-person-image/4.jpg" alt="">
-						<div class="details">
-							<h2>Jim Burner</h2>
-							<span>GROOM’S FATHER</span>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy since1500s</p>
-						</div>
-					</div>
-					<div class="close_person_bottom_single clearfix">
-						<img src="images/close-person-image/5.jpg" alt="">
-						<div class="details">
-							<h2>Jim Burner</h2>
-							<span>GROOM’S FATHER</span>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy since1500s</p>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-					<div class="close_person_bottom_single clearfix">
-						<div class="details">
-							<h2>Jim Burner</h2>
-							<span>GROOM’S FATHER</span>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy since1500s</p>
-						</div>
-						<img src="images/close-person-image/6.jpg" alt="">
-					</div>
-					<div class="close_person_bottom_single clearfix">
-						<div class="details">
-							<h2>Jim Burner</h2>
-							<span>GROOM’S FATHER</span>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy since1500s</p>
-						</div>
-						<img src="images/close-person-image/7.jpg" alt="">
-					</div>
-					<div class="close_person_bottom_single clearfix">
-						<div class="details">
-							<h2>Jim Burner</h2>
-							<span>GROOM’S FATHER</span>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy since1500s</p>
-						</div>
-						<img src="images/close-person-image/8.jpg" alt="">
-					</div>
-					<div class="close_person_bottom_single clearfix">
-						<div class="details">
-							<h2>Jim Burner</h2>
-							<span>GROOM’S FATHER</span>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy since1500s</p>
-						</div>
-						<img src="images/close-person-image/9.jpg" alt="">
-					</div>
-					<div class="close_person_bottom_single clearfix">
-						<div class="details">
-							<h2>Jim Burner</h2>
-							<span>GROOM’S FATHER</span>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy since1500s</p>
-						</div>
-						<img src="images/close-person-image/10.jpg" alt="">
-					</div>
-				</div>
-
+			<div class="row testimonial-friend-details">
+			<div class="col-sm-2 col-xs-3 padding-remove testimonial-friend-picture">
+			<img class="img-responsive" src="wp-content/uploads/2016/11/rose_marry.jpg" alt="Friends Picture">
 			</div>
-
-		</div>
-	</section> <!-- /#close_people -->
-
-	<!-- .curv-white -->
-	<section class="curv-white">
-		<h2>This is only for validation</h2>
-	</section> <!-- /.curv-white -->
-
-	<!-- #rsvp 
-	<section id="rsvp">
-		<div class="overlay">
-			<div class="container"> 
-
-				<h2 class="wow slideInUp" data-animation-duration="500">CONFIRM YOUR ATTENDNEES</h2>
-				<p class="wow slideInUp" data-animation-duration="500">Fill up the form and join with us on the wedding party</p>
-
-				<div class="row">
-					<div id="rsvp-wrap" class="wow slideInLeft" data-animation-delay="500">
-						<form action="#" class="contact-form" method="post">
-							<input type="text" name="name" class="name" placeholder="Your Name">
-							<input type="email" name="email" class="email" placeholder="Your Email">
-							<select class="select-one events" name="events">
-								<option value="All Event" selected="selected">All Event</option>
-								<option value="Clebration Party">Clebration Party</option>
-								<option value="Engagement Party">Engagement Party</option>
-								<option value="Reciption">Reciption</option>
-							</select>
-							<select class="select-two peoples" name="peoples">
-								<option value="Number Of People" selected="selected">Number Of People</option>
-								<option value="2">2</option>
-								<option value="5">5</option>
-								<option value="10">10</option>
-								<option value="20">20</option>
-							</select>
-							<button type="submit">I'm Attending</button>
-						</form>
-					</div>
-				</div>
+			<div class="col-sm-4 col-xs-7">
+			<p class="testimonial-friend-name text-capitalize text-pink">Rose Marry</p>
+			<p class="text-regular text-white text-capitalize">Bride Best Friend</p>
 			</div>
-		</div>
-	</section>  -->
-
-
-	<!-- #wedding_party -->
-	<section id="wedding_party">
-		<div class="container">
-
-			<!-- .section-title -->
-			<div class="section-title wow slideInDown" data-animation-duration="500">
-				<h2>WEDDING PARTY</h2>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesettin</p>
-			</div> <!-- /.section-title -->
-		
-			<div class="row">
-
-				<div class="single_location col-lg-3 col-md-3 col-sm-3">
-					<h2>Date & Time</h2>
-					<p>The wedding party will begin @ <span class="highlight">14:00 P.M</span> on <br> <span class="highlight">Monday July 23, 2015</span> . Free drinks and music <br> is on the way, no costume is needed.</p>
-				</div>
-				<div class="single_location col-lg-3 col-md-3 col-sm-3">
-					<h2>Location</h2>
-					<p>Gulshan Hall, 60 Grant Ave. Carteret NJ 0708 <br> (732) 803-01 03, (732) 806-01 04 <br> info@emailname.com</p>
-				</div>
-				<div class="single_location col-lg-3 col-md-3 col-sm-3">
-					<h2>party & event</h2>
-					<p><span class="highlight">Eevent One :</span> Event Name and Time <br>
-					<span class="highlight">Eevent Two :</span> Event Name and Time <br>
-					<span class="highlight">Eevent Three :</span> Event Name and Time</p>
-				</div>
-
 			</div>
-			
-			<div class="row">
-				<!-- #gmap -->
-				<div id="gmap" class="wow fadeIn">
-
-				</div> <!-- /#gmap -->
+			</div><div class="item flex-container flex-column wow fadeInUp">
+			<div class="testimonial-quotation bg-white">
+			<blockquote class="text-regular position-relative">
+			<i class="fa fa-quote-left text-pink position-absolute" aria-hidden="true"></i>There are many variations of passages of Lorem Ipsum available, but the majority have suffered in some form, by injected humour, slightly believable.There are many variations of passages of Lorem Ipsum available, There are many variations of passages.</blockquote>
 			</div>
-
-			<div class="row">
-				
-				<div class="single_event col-lg-4 col-md-4 col-sm-4 wow slideInLeft" data-animation-delay="500" data-animation-duration="500">
-					<div class="image-wrap">
-						<img src="images/single-event/1.jpg" alt="event image">
-						<div class="overlay"></div>
-					</div>
-					<h2>Event One</h2>
-					<p>There are many variations of passages of Lorem Ipsum available, but the majority havesuffered alteration in some form, by injected</p>
-					<a href="#" class="read_more">Read More <i class="fa fa-angle-right"></i></a>
-				</div>
-				<div class="single_event col-lg-4 col-md-4 col-sm-4 wow slideInLeft" data-animation-delay="1000" data-animation-duration="500">
-					<div class="image-wrap">
-						<img src="images/single-event/2.jpg" alt="event image">
-						<div class="overlay"></div>
-					</div>
-					<h2>Event Two</h2>
-					<p>There are many variations of passages of Lorem Ipsum available, but the majority havesuffered alteration in some form, by injected</p>
-					<a href="#" class="read_more">Read More <i class="fa fa-angle-right"></i></a>
-				</div>
-				<div class="single_event col-lg-4 col-md-4 col-sm-4 wow slideInLeft" data-animation-delay="1500" data-animation-duration="500">
-					<div class="image-wrap">
-						<img src="images/single-event/3.jpg" alt="event image">
-						<div class="overlay"></div>
-					</div>
-					<h2>Event Three</h2>
-					<p>There are many variations of passages of Lorem Ipsum available, but the majority havesuffered alteration in some form, by injected</p>
-					<a href="#" class="read_more">Read More <i class="fa fa-angle-right"></i></a>
-				</div>
-
+			<div class="row testimonial-friend-details">
+			<div class="col-sm-2 col-xs-3 padding-remove testimonial-friend-picture">
+			<img class="img-responsive" src="wp-content/uploads/2016/11/comments_profile_01.jpg" alt="Friends Picture">
 			</div>
-		</div>
-	</section> <!-- /#wedding_party -->
-
-	<!-- .curv-white -->
-	<section class="curv-white">
-		<h2>This is only for validation</h2>
-	</section> <!-- /.curv-white -->
-
-	<!-- #gift_registry 
-	<section id="gift_registry">
-		<div class="overlay">
-			<div class="container">
-				<div class="row">
-					<h2 class="wow fadeInUp">GIFT REGISTERY</h2>
-					<p class="wow fadeInUp">Thank you for being a part of us and contribute for our new life</p>
-					<img src="images/gift-image/1.png" alt="" class="wow slideInLeft">
-					<img src="images/gift-image/2.png" alt="" class="wow slideInLeft">
-					<img src="images/gift-image/3.png" alt="" class="wow slideInLeft">
-				</div>
+			<div class="col-sm-4 col-xs-7">
+			<p class="testimonial-friend-name text-capitalize text-pink">Edward Prince</p>
+			<p class="text-regular text-white text-capitalize">Bride Best Friend</p>
 			</div>
-		</div>
-	</section> <!-- /#gift_registry -->
-
-	<!-- #our_blog 
-	<section id="our_blog">
-		<div class="container">
-
-			
-			<div class="section-title">
-				<h2>OUR BLOG</h2>
+			</div>
+			</div> </div>
+			</div>
 			</div> 
-
-			<div class="row">
-				<div class="single_blog_post col-lg-4 col-md-4 col-sm-6">
-					<div class="image-wrap">
-						<img src="images/blog-image/1.jpg" alt="">
-						<div class="overlay"></div>
-					</div>
-					<div class="details">
-						<h2>Blog Heading</h2>
-						<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected</p>
-						<label>Posted by <a href="#">Jhone</a> on <a href="#">dec 24,2014</a></label>
-						<a href="#" class="read_more">read more</a>
-					</div>
-				</div>
-				<div class="single_blog_post col-lg-4 col-md-4 col-sm-6">
-					<div class="image-wrap">
-						<img src="images/blog-image/2.jpg" alt="">
-						<div class="overlay"></div>
-					</div>
-					<div class="details">
-						<h2>Blog Heading</h2>
-						<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected</p>
-						<label>Posted by <a href="#">Jhone</a> on <a href="#">dec 24,2014</a></label>
-						<a href="#" class="read_more">read more</a>
-					</div>
-				</div>
-				<div class="single_blog_post col-lg-4 col-md-4 col-sm-6">
-					<div class="image-wrap">
-						<img src="images/blog-image/3.jpg" alt="">
-						<div class="overlay"></div>
-					</div>
-					<div class="details">
-						<h2>Blog Heading</h2>
-						<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected</p>
-						<label>Posted by <a href="#">Jhone</a> on <a href="#">dec 24,2014</a></label>
-						<a href="#" class="read_more">read more</a>
-					</div>
-				</div>
 			</div>
-			<div class="row">
-				<div class="single_blog_post col-lg-4 col-md-4 col-sm-6">
-					<div class="image-wrap">
-						<img src="images/blog-image/4.jpg" alt="">
-						<div class="overlay"></div>
-					</div>
-					<div class="details">
-						<h2>Blog Heading</h2>
-						<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected</p>
-						<label>Posted by <a href="#">Jhone</a> on <a href="#">dec 24,2014</a></label>
-						<a href="#" class="read_more">read more</a>
-					</div>
-				</div>
-				<div class="single_blog_post col-lg-4 col-md-4 col-sm-6">
-					<div class="image-wrap">
-						<img src="images/blog-image/5.jpg" alt="">
-						<div class="overlay"></div>
-					</div>
-					<div class="details">
-						<h2>Blog Heading</h2>
-						<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected</p>
-						<label>Posted by <a href="#">Jhone</a> on <a href="#">dec 24,2014</a></label>
-						<a href="#" class="read_more">read more</a>
-					</div>
-				</div>
-				<div class="single_blog_post col-lg-4 col-md-4 col-sm-6">
-					<div class="image-wrap">
-						<img src="images/blog-image/6.jpg" alt="">
-						<div class="overlay"></div>
-					</div>
-					<div class="details">
-						<h2>Blog Heading</h2>
-						<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected</p>
-						<label>Posted by <a href="#">Jhone</a> on <a href="#">dec 24,2014</a></label>
-						<a href="#" class="read_more">read more</a>
-					</div>
-				</div>
+			</div> 
+			</div>
+            </div></div>	
+		</div>
+	</div>
+</section>
+<section id="events" class="bestmoment_addclass events">
+	<div class="container">
+		<div class="row">
+			<div class="bestmomentadd wedding-events section-padding-top section-padding-bottom wow fadeInUp">
+			
+			<div class="col-md-12">
+			<h2 class="section-title text-center"><span class="text-blackish arima-madurairegular">our </span> <span class="text-pink">wedding events</span></h2>
+			<div class="text-center">
+			<span class="title-strip-pink text-pink">
+			<i class="fa fa-heart" aria-hidden="true"></i>
+			<i class="fa fa-heart" aria-hidden="true"></i>
+			<i class="fa fa-heart" aria-hidden="true"></i>
+			</span>
+			</div>
+			<p class="section-tagline">Phasellus laoreet finibus nisl, in auctor mauris placerat ut. Nunc dui ante, lacinia id magna id, luctus aliquam arcu.</p>
+			</div>
+			<div class="clearfix col-md-6 wedding-events-img">
+			<img class="img-responsive center-block" src="wp-content/uploads/2016/11/wedding_events.jpg" alt="Wedding Events">
+			</div>
+			<div class="col-md-6">
+			<ul class="events-list"><li class="wow fadeInUp">
+			<h3 class="section-subtitle text-capitalize"><a href="#">Engagement</a></h3>
+			<ul class="list-inline events-info">
+			<li class="text-capitalize"><i class="fa fa-calendar text-pink" aria-hidden="true"></i>23 february, 2019</li>
+			<li class="text-capitalize"><i class="fa fa-clock-o text-pink" aria-hidden="true"></i>11.00 am</li>
+			 <!--<<li class="text-capitalize"><i class="fa fa-map-marker text-pink" aria-hidden="true"></i>Elephent Road, Dhaka</li> -->
+			</ul>
+			<p class="text-regular">There are many variations of passages of Lorem Ipsum available, but the majority havesuffered alteration in some form, by injected humour, domised words which slightly believable.</p>
+			</li><li class="wow fadeInUp">
+			<h3 class="section-subtitle text-capitalize"><a href="#">Reception</a></h3>
+			<ul class="list-inline events-info">
+			<li class="text-capitalize"><i class="fa fa-calendar text-pink" aria-hidden="true"></i>23 february, 2019</li>
+			<li class="text-capitalize"><i class="fa fa-clock-o text-pink" aria-hidden="true"></i>6.30pm</li>
+			<!--<li class="text-capitalize"><i class="fa fa-map-marker text-pink" aria-hidden="true"></i>Elephent Road, Dhaka</li> -->
+			</ul>
+			<p class="text-regular">There are many variations of passages of Lorem Ipsum available, but the majority havesuffered alteration in some form, by injected humour, domised words which slightly believable.</p>
+			</li><li class="wow fadeInUp">
+			<h3 class="section-subtitle text-capitalize"><a href="#">Dinner</a></h3>
+			<ul class="list-inline events-info">
+			<li class="text-capitalize"><i class="fa fa-calendar text-pink" aria-hidden="true"></i>23 february, 2019</li>
+			<li class="text-capitalize"><i class="fa fa-clock-o text-pink" aria-hidden="true"></i>7.00pm</li>
+			<!-- <li class="text-capitalize"><i class="fa fa-map-marker text-pink" aria-hidden="true"></i>Elephent Road, Dhaka</li> -->
+			</ul>
+			<p class="text-regular">There are many variations of passages of Lorem Ipsum available, but the majority havesuffered alteration in some form, by injected humour, domised words which slightly believable.</p>
+			</li>
+			<li class="wow fadeInUp">
+			<h3 class="section-subtitle text-capitalize"><a href="#">Wedding Ceremony</a></h3>
+			<ul class="list-inline events-info">
+			<li class="text-capitalize"><i class="fa fa-calendar text-pink" aria-hidden="true"></i>24 february, 2019</li>
+			<li class="text-capitalize"><i class="fa fa-clock-o text-pink" aria-hidden="true"></i>9.30am - 10.30am</li>
+			<!-- <li class="text-capitalize"><i class="fa fa-map-marker text-pink" aria-hidden="true"></i>Elephent Road, Dhaka</li> -->
+			</ul>
+			<p class="text-regular">There are many variations of passages of Lorem Ipsum available, but the majority havesuffered alteration in some form, by injected humour, domised words which slightly believable.</p>
+			</li></ul>
 			</div>
 			
-			<a href="#" class="read_more">Read More</a>
-
-		</div>
-	</section> -->
-
-	<!-- .curv-white -->
-	<section class="curv-white">
-		<h2>This is only for validation</h2>
-	</section> <!-- /.curv-white -->
-
-
-	<!-- #qoute -->
-	<section id="qoute">
-		<div class="overlay">
-			<div class="container wow slideInDown">
-				<div class="row">
-					<p>“No matter what has happened. No matter what you’ve done. No matter what <br>you will do. I will always love you. I swear it.”</p>
-					<h3>C.J. Redwine</h3>
-				</div>
-			</div>
-		</div>
-	</section> <!-- /#qoute -->
-	
-
-	<!-- #gallery -->
-	<section id="gallery">
-		<div class="container">
-
-			<!-- .section-title -->
-			<div class="section-title">
-				<h2>OUR GALLERY</h2>
-			</div> <!-- /.section-title -->
-
+			</div></section>
+			<!--<div class="bestmoment_outer"><section class="rsvp-banner cover-background position-relative parallax-container wow fadeInUp"> 
+			<div class="container">
 			<div class="row">
-				<ul class="clearfix">
-					<li class="wow slideInLeft"><a data-gal="prettyPhoto" href="images/gallery/image-1.jpg">
-						<img src="images/gallery/thumbnails/image-1.jpg" alt="single image">
-						<span class="overlay"></span>
-					</a></li>					
-					<li class="wow slideInLeft"><a data-gal="prettyPhoto" href="images/gallery/image-2.jpg">
-						<img src="images/gallery/thumbnails/image-2.jpg" alt="single image">
-						<span class="overlay"></span>
-					</a></li>					
-					<li class="wow slideInLeft"><a data-gal="prettyPhoto" href="images/gallery/image-3.jpg">
-						<img src="images/gallery/thumbnails/image-3.jpg" alt="single image">
-						<span class="overlay"></span>
-					</a></li>					
-					<li class="wow slideInLeft"><a data-gal="prettyPhoto" href="images/gallery/image-4.jpg">
-						<img src="images/gallery/thumbnails/image-4.jpg" alt="single image">
-						<span class="overlay"></span>
-					</a></li>					
-					<li class="wow slideInLeft"><a data-gal="prettyPhoto" href="images/gallery/image-5.jpg">
-						<img src="images/gallery/thumbnails/image-5.jpg" alt="single image">
-						<span class="overlay"></span>
-					</a></li>					
-					<li class="wow slideInLeft"><a data-gal="prettyPhoto" href="images/gallery/image-6.jpg">
-						<img src="images/gallery/thumbnails/image-6.jpg" alt="single image">
-						<span class="overlay"></span>
-					</a></li>					
-				</ul>
+			<div class="pink-overlay position-cover"></div>
+			<img class="invisible img-responsive" src="wp-content/uploads/2016/11/rsvp_bg.jpg" alt="RSVP Background">
+			
+			<div class="position-cover flex-container flex-middle flex-center">
+			<div class="zindex-1">
+			<h2 class="section-title text-center"><span class="text-white arima-madurairegular">Are </span> <span class="text-white">You Attending ?</span></h2>
+			<div class="text-center">
+			<span class="title-strip-white text-white">
+			<i class="fa fa-heart" aria-hidden="true"></i>
+			<i class="fa fa-heart" aria-hidden="true"></i>
+			<i class="fa fa-heart" aria-hidden="true"></i>
+			</span>
 			</div>
-		</div>
-	</section> <!-- /#gallery -->
-
-	<!-- #curv-footer -->
-	<section class="curv-footer">
-		<h2>This is only for validation</h2>
-	</section> <!-- /#curv-footer -->
-
-	<!-- footer -->
-	<footer>
-		<div class="footer_top">
-			<div class="container">
-				<div class="row">
-					<img src="images/logo/footer-logo.png" alt="">
-				</div>
+			<p class="section-tagline text-white">Phasellus laoreet finibus nisl, in auctor mauris placerat ut. Nunc dui ante, lacinia id magna id, luctus aliquam arcu.</p>
+			<div class="text-center">
+			<a href="#" class="wedding-button bg-white text-pink center-block link-smooth-scroll">RSVP now</a>
 			</div>
-		</div>
-		<div class="footer_bottom">
-			<div class="container">
-				<div class="row">
-					<p>&copy; 2015 Wedding - Premium WordPress Theme by <a href="#">Template Path</a></p>
-				</div>
 			</div>
+			</div>
+			</div>
+			</div>
+			</section>
+			</div>	
 		</div>
-	</footer> <!-- /footer -->
+	</div>
+</section>-->
+<section id="people" class="bestmoment_addclass people">
+	<div class="container">
+		<div class="row">
+			<h2 class="disp">Section Heading</h2>
+<div class="important-people section-padding-top section-padding-bottom  wow fadeInUp">
+            <div class="container">
+			<div class="row">
+			<div class="col-md-12">
+			<h2 class="section-title text-center"><span class="text-blackish arima-madurairegular">Important </span> <span class="text-pink">People</span></h2>
+			<div class="text-center">
+			<span class="title-strip-pink text-pink">
+			<i class="fa fa-heart" aria-hidden="true"></i>
+			<i class="fa fa-heart" aria-hidden="true"></i>
+			<i class="fa fa-heart" aria-hidden="true"></i>
+			</span>
+			</div>
+			<p class="section-tagline">Phasellus laoreet finibus nisl, in auctor mauris placerat ut. Nunc dui ante, lacinia id magna id, luctus aliquam arcu.</p>
+			</div>
+			<div class="clearfix col-md-12">
+			<ul class="list-unstyled row-equal-height"><li class="col-sm-3 col-xs-6 people-list wow fadeInUp">
+			<figure class="mb-80 display-block text-center">
+			<a class="thumbnail-custom" href="#"><img class="img-responsive" src="wp-content/uploads/2016/11/people_01.jpg" alt="Important People"></a>
+			<figcaption class="display-inline-block">
+			<h3 class="important-people-name text-capitalize text-center"><a href="#">Edward Prince</a></h3>
+			<p class="important-people-relation text-capitalize text-center">Groom Father</p>
+			</figcaption>
+			</figure>
+			</li><li class="col-sm-3 col-xs-6 people-list wow fadeInUp">
+			<figure class="mb-80 display-block text-center">
+			<a class="thumbnail-custom" href="#"><img class="img-responsive" src="wp-content/uploads/2016/11/people_02.jpg" alt="Important People"></a>
+			<figcaption class="display-inline-block">
+			<h3 class="important-people-name text-capitalize text-center"><a href="#">Alice Luse</a></h3>
+			<p class="important-people-relation text-capitalize text-center">Groom Mother</p>
+			</figcaption>
+			</figure>
+			</li><li class="col-sm-3 col-xs-6 people-list wow fadeInUp">
+			<figure class="mb-80 display-block text-center">
+			<a class="thumbnail-custom" href="#"><img class="img-responsive" src="wp-content/uploads/2016/11/people_03.jpg" alt="Important People"></a>
+			<figcaption class="display-inline-block">
+			<h3 class="important-people-name text-capitalize text-center"><a href="#">Petra Beedle</a></h3>
+			<p class="important-people-relation text-capitalize text-center">Groom Sister</p>
+			</figcaption>
+			</figure>
+			</li><li class="col-sm-3 col-xs-6 people-list wow fadeInUp">
+			<figure class="mb-80 display-block text-center">
+			<a class="thumbnail-custom" href="#"><img class="img-responsive" src="wp-content/uploads/2016/11/people_04.jpg" alt="Important People"></a>
+			<figcaption class="display-inline-block">
+			<h3 class="important-people-name text-capitalize text-center"><a href="#">Edward Prince</a></h3>
+			<p class="important-people-relation text-capitalize text-center">Bride Father</p>
+			</figcaption>
+			</figure>
+			</li><li class="col-sm-3 col-xs-6 people-list wow fadeInUp">
+			<figure class="mb-80 display-block text-center">
+			<a class="thumbnail-custom" href="#"><img class="img-responsive" src="wp-content/uploads/2016/11/people_05.jpg" alt="Important People"></a>
+			<figcaption class="display-inline-block">
+			<h3 class="important-people-name text-capitalize text-center"><a href="#">Roger Painter</a></h3>
+			<p class="important-people-relation text-capitalize text-center">Bride Father</p>
+			</figcaption>
+			</figure>
+			</li><li class="col-sm-3 col-xs-6 people-list wow fadeInUp">
+			<figure class="mb-80 display-block text-center">
+			<a class="thumbnail-custom" href="#"><img class="img-responsive" src="wp-content/uploads/2016/11/people_06.jpg" alt="Important People"></a>
+			<figcaption class="display-inline-block">
+			<h3 class="important-people-name text-capitalize text-center"><a href="#">Sylvia Houck</a></h3>
+			<p class="important-people-relation text-capitalize text-center">Bride Mother</p>
+			</figcaption>
+			</figure>
+			</li><li class="col-sm-3 col-xs-6 people-list wow fadeInUp">
+			<figure class="mb-80 display-block text-center">
+			<a class="thumbnail-custom" href="#"><img class="img-responsive" src="wp-content/uploads/2016/11/people_07.jpg" alt="Important People"></a>
+			<figcaption class="display-inline-block">
+			<h3 class="important-people-name text-capitalize text-center"><a href="#">Leah Hall</a></h3>
+			<p class="important-people-relation text-capitalize text-center">Bride Sister</p>
+			</figcaption>
+			</figure>
+			</li><li class="col-sm-3 col-xs-6 people-list wow fadeInUp">
+			<figure class="mb-80 display-block text-center">
+			<a class="thumbnail-custom" href="#"><img class="img-responsive" src="wp-content/uploads/2016/11/people_08.jpg" alt="Important People"></a>
+			<figcaption class="display-inline-block">
+			<h3 class="important-people-name text-capitalize text-center"><a href="#">Steve Moore</a></h3>
+			<p class="important-people-relation text-capitalize text-center">Bride Brother</p>
+			</figcaption>
+			</figure>
+			</li></ul>
+			</div>
+			</div>
+            </div>
+			</div>	
+		</div>
+	</div>
+</section><!--<section id="rsvp" class="bestmoment_addclass rsvp">
+	<div class="container">
+		<div class="row">
+			<div class="bestmomentadd rsvp-now cover-background position-relative parallax-container wow fadeInUp">
+			<img class="img-responsive invisible" src="wp-content/uploads/2016/11/rsvp_form_bg.jpg" alt="RSVP Form">
 
+			<div class="position-cover flex-container flex-center flex-middle">
+			<div class="fullwidth-block">
+			<div class="col-md-12">
+			<h2 class="section-title text-center"><span class="text-white text-uppercase arima-madurairegular">RSVP </span> <span class="text-pink">Now</span></h2>
+			<div class="text-center">
+			<span class="title-strip-pink text-pink">
+			<i class="fa fa-heart" aria-hidden="true"></i>
+			<i class="fa fa-heart" aria-hidden="true"></i>
+			<i class="fa fa-heart" aria-hidden="true"></i>
+			</span>
+			</div>
+			<p class="section-tagline text-white">Phasellus laoreet finibus nisl, in auctor mauris placerat ut. Nunc dui ante, lacinia id magna id, luctus aliquam arcu.</p>
+			</div>
+			<div class="clearfix col-md-12">
+			<div class="row">
+			<div class="col-sm-8 center-block-col">
+			<div role="form" class="wpcf7" id="wpcf7-f84-p26-o1" lang="en-US" dir="ltr">
+<div class="screen-reader-response"></div>
+<form action="http://3jon.com/demo/themeforest/wp/bestmoment/#wpcf7-f84-p26-o1" method="post" class="wpcf7-form" novalidate="novalidate">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="84" />
+<input type="hidden" name="_wpcf7_version" value="4.7" />
+<input type="hidden" name="_wpcf7_locale" value="en_US" />
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f84-p26-o1" />
+<input type="hidden" name="_wpnonce" value="fa4a19fae6" />
+</div>
+<div class="form-horizontal">
+<div class="form-group">
+<div class="col-sm-6">
+<div class="input-group">
+				<span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span><span class="wpcf7-form-control-wrap name"><input type="text" name="name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" id="name" aria-required="true" aria-invalid="false" placeholder="Name" /></span>
+			</div>
+</div>
+<div class="col-sm-6">
+<div class="input-group">
+				<span class="input-group-addon"><i class="fa fa-envelope" aria-hidden="true"></i></span><span class="wpcf7-form-control-wrap email"><input type="text" name="email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" id="email" aria-required="true" aria-invalid="false" placeholder="E-mail" /></span>
+			</div>
+</div>
+</div>
+</div>
+<div class="form-horizontal">
+<div class="form-group">
+<div class="col-sm-6">
+<div class="input-group">
+				<span class="input-group-addon"><i class="fa fa-asterisk" aria-hidden="true"></i></span><span class="wpcf7-form-control-wrap menu-9"><select name="menu-9" class="wpcf7-form-control wpcf7-select form-control" id="numberofguests" aria-invalid="false"><option value="2 persons">2 persons</option><option value="3 persons">3 persons</option><option value="4 persons">4 persons</option><option value="5 persons or more +">5 persons or more +</option></select></span>
+			</div>
+</div>
+<div class="col-sm-6">
+<div class="input-group">
+				<span class="input-group-addon"><i class="fa fa-user-plus" aria-hidden="true"></i></span><span class="wpcf7-form-control-wrap attendto"><select name="attendto" class="wpcf7-form-control wpcf7-select form-control" id="attendto" aria-invalid="false"><option value="social hours">social hours</option><option value="ceremony">ceremony</option><option value="dinner">dinner</option><option value="cake cutting">cake cutting</option><option value="first dance">first dance</option><option value="cocktail party">cocktail party</option></select></span>
+			</div>
+</div>
+</div>
+</div>
+<div class="form-horizontal">
+<div class="form-group">
+<div class="col-md-12">
+<div class="input-group">
+				<span class="input-group-addon textarea-addon"><i class="fa fa-pencil" aria-hidden="true"></i></span><span class="wpcf7-form-control-wrap textarea-434"><textarea name="textarea-434" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea form-control textarea-custom" id="comments" aria-invalid="false" placeholder="write your notes"></textarea></span>
+			</div>
+</div>
+</div>
+</div>
+<p><span id="message"></span><br />
+<input type="submit" value="i am attending" class="wpcf7-form-control wpcf7-submit wedding-button bg-pink text-white center-block submi" /></p>
+<div class="wpcf7-response-output wpcf7-display-none"></div></form></div>
+			</div>
+			</div>
+			</div>
+			</div>
+			</div>
+			</div>	
+		</div>
+	</div>
+</section>-->
+<section id="gallery" class="bestmoment_addclass gallery">
+	<div class="container">
+		<div class="row">
+			<div class="bestmomentadd photo-gallery section-padding-top section-padding-bottom">
+			
+			<div class="col-md-12">
+			<h2 class="section-title text-center"><span class="text-blackish arima-madurairegular">Photo </span> <span class="text-pink">Gallery</span></h2>
+			<div class="text-center">
+			<span class="title-strip-pink text-pink">
+			<i class="fa fa-heart" aria-hidden="true"></i>
+			<i class="fa fa-heart" aria-hidden="true"></i>
+			<i class="fa fa-heart" aria-hidden="true"></i>
+			</span>
+			</div>
+			<p class="section-tagline text-grey-blackish">Phasellus laoreet finibus nisl, in auctor mauris placerat ut. Nunc dui ante, lacinia id magna id, luctus aliquam arcu.</p>
+			</div>
+			<div class="clearfix col-md-12">
+			<div id="photos"><a href="wp-content/uploads/2016/11/photo_gallery_01.jpg">
+			<figure class="cover-background position-relative wow fadeInUp" data-wow-offset="150">
+			<img class="img-responsive" src="wp-content/uploads/2016/11/photo_gallery_01.jpg" alt="Wedding Photos" title="cake cutting ceremony">
+			<figcaption class="position-cover">
+			<div class="position-relative">
+			<div class="position-absolute overlay-icon">
+			<i class="fa fa-heart text-white icon-left" aria-hidden="true"></i>
+			<span class="text-white">0</span>
+			</div>
+			</div>
+			<div class="overlay-figcap full-height flex-container flex-column flex-middle flex-center">
+			<h4 class="text-capitalize section-subtitle font-24">cake cutting ceremony</h4>
+			<p class="text-regular"><i class="fa fa-tag icon-left" aria-hidden="true"></i>cake ceremony wedding </p>
+			</div>
+			</figcaption>
+			</figure>
+			</a><a href="wp-content/uploads/2016/11/photo_gallery_02.jpg">
+			<figure class="cover-background position-relative wow fadeInUp" data-wow-offset="150">
+			<img class="img-responsive" src="wp-content/uploads/2016/11/photo_gallery_02.jpg" alt="Wedding Photos" title="cake cutting ceremony">
+			<figcaption class="position-cover">
+			<div class="position-relative">
+			<div class="position-absolute overlay-icon">
+			<i class="fa fa-heart text-white icon-left" aria-hidden="true"></i>
+			<span class="text-white">0</span>
+			</div>
+			</div>
+			<div class="overlay-figcap full-height flex-container flex-column flex-middle flex-center">
+			<h4 class="text-capitalize section-subtitle font-24">cake cutting ceremony</h4>
+			<p class="text-regular"><i class="fa fa-tag icon-left" aria-hidden="true"></i>wedding </p>
+			</div>
+			</figcaption>
+			</figure>
+			</a><a href="wp-content/uploads/2016/11/photo_gallery_03.jpg">
+			<figure class="cover-background position-relative wow fadeInUp" data-wow-offset="150">
+			<img class="img-responsive" src="wp-content/uploads/2016/11/photo_gallery_03.jpg" alt="Wedding Photos" title="cake cutting ceremony">
+			<figcaption class="position-cover">
+			<div class="position-relative">
+			<div class="position-absolute overlay-icon">
+			<i class="fa fa-heart text-white icon-left" aria-hidden="true"></i>
+			<span class="text-white">0</span>
+			</div>
+			</div>
+			<div class="overlay-figcap full-height flex-container flex-column flex-middle flex-center">
+			<h4 class="text-capitalize section-subtitle font-24">cake cutting ceremony</h4>
+			<p class="text-regular"><i class="fa fa-tag icon-left" aria-hidden="true"></i>ceremony </p>
+			</div>
+			</figcaption>
+			</figure>
+			</a><a href="wp-content/uploads/2016/11/photo_gallery_04.jpg">
+			<figure class="cover-background position-relative wow fadeInUp" data-wow-offset="150">
+			<img class="img-responsive" src="wp-content/uploads/2016/11/photo_gallery_04.jpg" alt="Wedding Photos" title="cake cutting ceremony">
+			<figcaption class="position-cover">
+			<div class="position-relative">
+			<div class="position-absolute overlay-icon">
+			<i class="fa fa-heart text-white icon-left" aria-hidden="true"></i>
+			<span class="text-white">0</span>
+			</div>
+			</div>
+			<div class="overlay-figcap full-height flex-container flex-column flex-middle flex-center">
+			<h4 class="text-capitalize section-subtitle font-24">cake cutting ceremony</h4>
+			<p class="text-regular"><i class="fa fa-tag icon-left" aria-hidden="true"></i>cake wedding </p>
+			</div>
+			</figcaption>
+			</figure>
+			</a><a href="wp-content/uploads/2016/11/photo_gallery_05.jpg">
+			<figure class="cover-background position-relative wow fadeInUp" data-wow-offset="150">
+			<img class="img-responsive" src="wp-content/uploads/2016/11/photo_gallery_05.jpg" alt="Wedding Photos" title="cake cutting ceremony">
+			<figcaption class="position-cover">
+			<div class="position-relative">
+			<div class="position-absolute overlay-icon">
+			<i class="fa fa-heart text-white icon-left" aria-hidden="true"></i>
+			<span class="text-white">0</span>
+			</div>
+			</div>
+			<div class="overlay-figcap full-height flex-container flex-column flex-middle flex-center">
+			<h4 class="text-capitalize section-subtitle font-24">cake cutting ceremony</h4>
+			<p class="text-regular"><i class="fa fa-tag icon-left" aria-hidden="true"></i>ceremony wedding </p>
+			</div>
+			</figcaption>
+			</figure>
+			</a><a href="wp-content/uploads/2016/11/photo_gallery_06.jpg">
+			<figure class="cover-background position-relative wow fadeInUp" data-wow-offset="150">
+			<img class="img-responsive" src="wp-content/uploads/2016/11/photo_gallery_06.jpg" alt="Wedding Photos" title="cake cutting ceremony">
+			<figcaption class="position-cover">
+			<div class="position-relative">
+			<div class="position-absolute overlay-icon">
+			<i class="fa fa-heart text-white icon-left" aria-hidden="true"></i>
+			<span class="text-white">0</span>
+			</div>
+			</div>
+			<div class="overlay-figcap full-height flex-container flex-column flex-middle flex-center">
+			<h4 class="text-capitalize section-subtitle font-24">cake cutting ceremony</h4>
+			<p class="text-regular"><i class="fa fa-tag icon-left" aria-hidden="true"></i>wedding </p>
+			</div>
+			</figcaption>
+			</figure>
+			</a></div>
+			</div>
+			</div>	
+		</div>
+	</div>
+</section>
+<!--<section id="blog" class="bestmoment_addclass blog">
+	<div class="container">
+		<div class="row">
+			<div class="bestmomentadd our-blog section-padding-top section-padding-bottom bg-grey">
+            <div class="container">
+			<div class="row">
+			<div class="col-md-12">
+			<h2 class="section-title text-center"><span class="text-blackish arima-madurairegular">Our </span> <span class="text-pink">Blog</span></h2>
+			<div class="text-center">
+			<span class="title-strip-pink text-pink">
+			<i class="fa fa-heart" aria-hidden="true"></i>
+			<i class="fa fa-heart" aria-hidden="true"></i>
+			<i class="fa fa-heart" aria-hidden="true"></i>
+			</span>
+			</div>
+			<p class="section-tagline text-grey-blackish">Phasellus laoreet finibus nisl, in auctor mauris placerat ut. Nunc dui ante, lacinia id magna id, luctus aliquam arcu.</p>
+			</div>
+			
+			<div class="clearfix col-md-12">
+			<div class="row"><div class="col-sm-4 col-xs-6 blog-thumbnail wow fadeInUp" data-wow-offset="100" data-wow-delay=".4s">
+			<div class="bg-white">
+			<figure class="position-relative hover-pointer">
+			<img class="img-responsive" src="wp-content/uploads/2016/11/from_blog_01.jpg" alt="From Blog">
+			<figcaption class="position-cover flex-container flex-center flex-bottom overlay-gradient-35p">
+			<div>
+			<h3 class="post-title text-center text-white">Oh my sweet heart</h3>
+			<ul class="list-inline blog-info">
+			<li class="text-capitalize text-white"><i class="fa fa-user icon-left" aria-hidden="true"></i>by admin</li>
+			<li class="text-capitalize text-white"><i class="fa fa-calendar icon-left" aria-hidden="true"></i>08 Nov 2016</li>
+			<li class="text-capitalize text-white"><i class="fa fa-commenting icon-left" aria-hidden="true"></i>0</li>
+			</ul>
+			</div>
+			</figcaption>
+			</figure>
+			<div class="blog-overview text-center">
+			<p class="text-regular text-blackish mb-35">There are many variations of passages of Lorem Ipsum available, but the majority havesuffered alteration in some form, by injected humour, many variations of passages.</p>
+			<a href="2016/11/08/oh-my-sweet-heart/index.html" class="section-subtitle text-capitalize">read more</a>
+			</div>
+			</div>
+			</div><div class="col-sm-4 col-xs-6 blog-thumbnail wow fadeInUp" data-wow-offset="100" data-wow-delay=".4s">
+			<div class="bg-white">
+			<figure class="position-relative hover-pointer">
+			<img class="img-responsive" src="wp-content/uploads/2016/11/from_blog_02.jpg" alt="From Blog">
+			<figcaption class="position-cover flex-container flex-center flex-bottom overlay-gradient-35p">
+			<div>
+			<h3 class="post-title text-center text-white">It&#8217;s your personal choice</h3>
+			<ul class="list-inline blog-info">
+			<li class="text-capitalize text-white"><i class="fa fa-user icon-left" aria-hidden="true"></i>by admin</li>
+			<li class="text-capitalize text-white"><i class="fa fa-calendar icon-left" aria-hidden="true"></i>08 Nov 2016</li>
+			<li class="text-capitalize text-white"><i class="fa fa-commenting icon-left" aria-hidden="true"></i>0</li>
+			</ul>
+			</div>
+			</figcaption>
+			</figure>
+			<div class="blog-overview text-center">
+			<p class="text-regular text-blackish mb-35">There are many variations of passages of Lorem Ipsum available, but the majority havesuffered alteration in some form, by injected humour, many variations of passages .</p>
+			<a href="2016/11/08/its-your-personal-choice/index.html" class="section-subtitle text-capitalize">read more</a>
+			</div>
+			</div>
+			</div><div class="col-sm-4 col-xs-6 blog-thumbnail wow fadeInUp" data-wow-offset="100" data-wow-delay=".4s">
+			<div class="bg-white">
+			<figure class="position-relative hover-pointer">
+			<img class="img-responsive" src="wp-content/uploads/2016/11/from_blog_03.jpg" alt="From Blog">
+			<figcaption class="position-cover flex-container flex-center flex-bottom overlay-gradient-35p">
+			<div>
+			<h3 class="post-title text-center text-white">We&#8217;re getting married</h3>
+			<ul class="list-inline blog-info">
+			<li class="text-capitalize text-white"><i class="fa fa-user icon-left" aria-hidden="true"></i>by admin</li>
+			<li class="text-capitalize text-white"><i class="fa fa-calendar icon-left" aria-hidden="true"></i>08 Nov 2016</li>
+			<li class="text-capitalize text-white"><i class="fa fa-commenting icon-left" aria-hidden="true"></i>0</li>
+			</ul>
+			</div>
+			</figcaption>
+			</figure>
+			<div class="blog-overview text-center">
+			<p class="text-regular text-blackish mb-35">There are many variations of passages of Lorem Ipsum available, but the majority havesuffered alteration in some form, by injected humour, many variations of passages.</p>
+			<a href="2016/11/08/were-getting-married/index.html" class="section-subtitle text-capitalize">read more</a>
+			</div>
+			</div>
+			</div></div>
+			</div>
+			
+			</div>
+            </div>
+			</div>	
+		</div>
+	</div>
+</section>-->
+<section id="location" class="bestmoment_addclass location">
+	<div class="container">
+		<div class="row">
+			<div class="bestmomentadd wedding-location section-padding-top">
+            
 
-	<script src="js/jquery-2.1.3.min.js"></script> <!-- jquery -->
-	<script src="js/bootstrap.min.js"></script> <!-- bootstrap -->
-	<script src="http://maps.google.com/maps/api/js?sensor=true"></script><!-- Map Api -->
-	<script src="js/gmaps.js"></script>  <!-- Gmap JS -->
-	<script src="js/jquery.prettyPhoto.js"></script> <!-- Pretty Photo js -->
-	<script src="js/countdown.js"></script>  <!-- Countdown JS -->
-	<script src="js/wow.min.js"></script>  <!-- WOW JS -->
-	<script src="js/custom.js"></script> <!-- custom -->
-	<script src="js/custom-home.js"></script> <!-- custom home -->
+			<div class="col-md-12">
+			<h2 class="section-title text-center"><span class="text-blackish text-uppercase arima-madurairegular">Wedding </span> <span class="text-pink">Location</span></h2>
+			<div class="text-center">
+			<span class="title-strip-pink text-pink">
+			<i class="fa fa-heart" aria-hidden="true"></i>
+			<i class="fa fa-heart" aria-hidden="true"></i>
+			<i class="fa fa-heart" aria-hidden="true"></i>
+			</span>
+			</div>
+			<p class="section-tagline">Phasellus laoreet finibus nisl, in auctor mauris placerat ut. Nunc dui ante, lacinia id magna id, luctus aliquam arcu.</p>
+			</div>
+			<div class="clearfix col-md-12">
+			<div class="row">
+			<div class="col-lg-10 center-block-col section-padding-bottom">
+			<div class="row">
+			<div class="col-md-4">
+			<div class="contact-details wow fadeInDown" data-wow-duration="1s">
+			<p class="contact-info text-capitalize text-center"><i class="fa fa-map-marker icon-left" aria-hidden="true"></i>Address</p>
+			<p class="text-regular text-capitalize text-center margin-remove">Elephent Road, Dhaka 1205, Bangladesh</p>
+			</div>
+			</div>
+			<div class="col-md-4">
+			<div class="contact-details wow fadeInDown" data-wow-duration="2s">
+			<p class="contact-info text-capitalize text-center"><i class="fa fa-map-marker icon-left" aria-hidden="true"></i>Phone</p>
+			<p class="text-regular text-capitalize text-center margin-remove">+88012-47589245</p>
+			</div>
+			</div>
+			<div class="col-md-4">
+			<div class="contact-details wow fadeInDown" data-wow-duration="3s">
+			<p class="contact-info text-capitalize text-center"><i class="fa fa-map-marker icon-left" aria-hidden="true"></i>Email</p>
+			<p class="text-regular text-capitalize text-center margin-remove">Yourmail@Mail.Com</p>
+			</div>
+			</div>
+			</div>
+			</div>
+			</div>
+			</div>
+			<div class="col-md-12 padding-remove">
+			<div class="cover-background position-relative" id="gmap">
+			<img class="invisible img-responsive" src="wp-content/themes/bestmoment/images/map.jpg" alt="Location Map">
+			<div class="position-cover" id="gmap_canvas"></div>
+			</div>
+			</div>
+			</div>	
+		</div>
+	</div>
+</section>
+<!--<section id="gifts" class="bestmoment_addclass gifts">
+	<div class="container">
+		<div class="row">
+			<h2 class="disp">Section Heading</h2>
+<section class="gift-registration section-padding-top section-padding-bottom wow fadeInUp">
+            <div class="container">
+			<div class="row">
+			<div class="col-md-12">
+			<h2 class="section-title text-center"><span class="text-blackish arima-madurairegular">Gift </span> <span class="text-pink">Registration</span></h2>
+			<div class="text-center">
+			<span class="title-strip-pink text-pink">
+			<i class="fa fa-heart" aria-hidden="true"></i>
+			<i class="fa fa-heart" aria-hidden="true"></i>
+			<i class="fa fa-heart" aria-hidden="true"></i>
+			</span>
+			</div>
+			<p class="section-tagline">Phasellus laoreet finibus nisl, in auctor mauris placerat ut. Nunc dui ante, lacinia id magna id, luctus aliquam arcu.</p>
+			</div>
+			<div class="col-md-12">
+			<div class="gift-reg-slideset"><div>
+			<img class="img-responsive center-block wow fadeInUp" src="wp-content/uploads/2016/11/gift_01.png" alt="Gift Registration">
+			</div><div>
+			<img class="img-responsive center-block wow fadeInUp" src="wp-content/uploads/2016/11/gift_02.png" alt="Gift Registration">
+			</div><div>
+			<img class="img-responsive center-block wow fadeInUp" src="wp-content/uploads/2016/11/gift_03.png" alt="Gift Registration">
+			</div><div>
+			<img class="img-responsive center-block wow fadeInUp" src="wp-content/uploads/2016/11/gift_04.png" alt="Gift Registration">
+			</div><div>
+			<img class="img-responsive center-block wow fadeInUp" src="wp-content/uploads/2016/11/gift_02.png" alt="Gift Registration">
+			</div><div>
+			<img class="img-responsive center-block wow fadeInUp" src="wp-content/uploads/2016/11/gift_04.png" alt="Gift Registration">
+			</div><div>
+			<img class="img-responsive center-block wow fadeInUp" src="wp-content/uploads/2016/11/gift_01.png" alt="Gift Registration">
+			</div><div>
+			<img class="img-responsive center-block wow fadeInUp" src="wp-content/uploads/2016/11/gift_02.png" alt="Gift Registration">
+			</div> </div>
+			</div>
+			</div>
+            </div>
+			</section>	
+		</div>
+	</div>
+</section>-->
 
+		<footer>
+		            <div class="footer-logo-wells bg-grey">
+                <a href="index.html">
+                <img class="img-responsive center-block wow fadeInUp" src="wp-content/uploads/2016/11/footer_logo.png" alt="Best Moments Wp Theme">
+                </a>
+            </div>
+			
+            <div class="copy-right bg-blackish">
+                <p class="text-copy-right text-center margin-remove"><span class="text-white">Developed by Data King </span> <a href="www.3jon.html"><span class="text-pink"></span></a></p>
+            </div>
+        </footer>
 
+<script type='text/javascript' src='wp-content/plugins/contact-form-7/includes/js/jquery.form.mind03d.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='wp-content/plugins/contact-form-7/includes/js/scripts4906.js?ver=4.7'></script>
+<script type='text/javascript' src='wp-content/themes/bestmoment/js/bootstrap.min77ae.js?ver=2'></script>
+<script type='text/javascript' src='wp-content/themes/bestmoment/js/slick.min592e.js?ver=3'></script>
+<script type='text/javascript' src='wp-content/themes/bestmoment/js/countdown7dd3.js?ver=4'></script>
+<script type='text/javascript' src='wp-content/themes/bestmoment/js/simple-lightbox.minb52e.js?ver=5'></script>
+<script type='text/javascript' src='wp-content/themes/bestmoment/js/wow.min9055.js?ver=6'></script>
+<script type='text/javascript' src='wp-content/themes/bestmoment/js/custom0e7e.js?ver=7'></script>
+<script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?callback=init_map&amp;v=3.exp&amp;key=AIzaSyCgdXATgT_k_QzRYz2_Km5W3ah_7EV0WkU&amp;ver=8'></script>
+<script type='text/javascript' src='wp-includes/js/wp-embed.minf718.js?ver=4.7.12'></script>
+<script>
+jQuery("#countdown").countdown({
+		date: "15 February, 2017 10:20"
+	});
+</script></body>
 
-</body>
-
-<!-- Mirrored from demo.templatepath.com/wedding_new/wedding-html/jasmine/version-2/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 11 Jan 2019 03:44:18 GMT -->
+<!-- Mirrored from 3jon.com/demo/themeforest/wp/bestmoment/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 13 Jan 2019 01:28:10 GMT -->
 </html>
